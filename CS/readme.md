@@ -11,7 +11,7 @@ It fulfills the assignment requirement to:
 
 ---
 
-## 🔐 1. Symmetric Encryption (Fernet / AES)
+##  1. Symmetric Encryption (Fernet / AES)
 
 ### How it works
 The symmetric portion of the program uses the **Fernet** implementation from the `cryptography` library.  
@@ -32,7 +32,7 @@ A **single shared key** is generated and used for both:
 
 ---
 
-## 🔑 2. Asymmetric Encryption (RSA)
+##  2. Asymmetric Encryption (RSA)
 
 ### How it works
 The asymmetric portion uses **RSA (2048-bit)** with **OAEP padding** and **SHA-256**.
@@ -55,7 +55,7 @@ This eliminates the need to share a secret key.
 
 ---
 
-## 📜 3. What the Script Prints
+##  3. What the Script Prints
 
 Running the script outputs:
 
@@ -72,9 +72,10 @@ This provides clear evidence of both encryption systems functioning correctly.
 
 ---
 
-## ▶️ 4. How to Run
+##  4. How to Run
 
 ### Install required libraries:
 
 ```bash
 pip install cryptography
+
